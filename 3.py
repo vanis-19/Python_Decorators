@@ -1,7 +1,7 @@
 def smart_dev(func):
     def inner(a,b):
         if b==0:
-            print(a can not divide by zero')
+            print(a can not divide by zero 'a/b)
         else:
              print(a/b)
         func(a,b)
